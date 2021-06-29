@@ -150,6 +150,22 @@ img {
   color: var(--accent-color);
 }
 
+/* .contacts-items {
+  display: inline-flex;
+} */
+.contacts-items::before {
+  display: inline-block;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background-image: url(../images/envelope\ \(hover\).svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  margin-right: 10px;
+}
+
 .tel-link {
   font-size: 14px;
   line-height: 1.14;
